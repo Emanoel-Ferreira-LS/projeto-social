@@ -66,3 +66,11 @@ section#redes-sociais img:hover{
     transition: transform 10s;*/
     transition: border 0.08s;    
 }
+
+@media (max-width: 700px){
+    section#redes-sociais img{
+        width: 7vw;
+        margin: 10px;
+        border-radius: 50%;
+    }
+}
